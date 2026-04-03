@@ -2,7 +2,7 @@ import random
 words=["Werewolf","Vampire","Mormon","Dracula","Displeased","Tiramisu","Tropical","Pacific","Gorgyle","Spinster","Vintage","Protest",
       "Quit","Indigo","Parsley","Mint","Victory","Nike","Athens"]
 answer=random.choice(words).lower()
-print (answer)
+
 printableAns=["_"]*len(answer)
 strike = 5
 hangman_stages = [
